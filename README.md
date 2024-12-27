@@ -11,6 +11,10 @@ Tree-sitter is a parser generator tool and an incremental parsing library. It ca
 - **Robust** enough to provide useful results even in the presence of syntax errors
 - **Dependency-free** so that the runtime library (which is written in pure C) can be embedded in any application
 
+This repo is a fork I made to create friendly HTML reports, and then I was asked to instead generate JSON, so I rewrote to generate JSON instead, but in the end, the code wasn't needed for the main project. But I still find it useful, so this is mainly going to exist for me to pull upstream TS changes into my personal fork that has the JSON code, which I plan to convert back into HTML-report generating code.
+
+Anyone else is welcome to use this, but I don't plan on providing support or binaries.
+
 ## Links
 - [Documentation](https://tree-sitter.github.io)
 - [Rust binding](lib/binding_rust/README.md)
