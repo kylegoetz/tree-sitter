@@ -13,7 +13,9 @@ Tree-sitter is a parser generator tool and an incremental parsing library. It ca
 
 This repo is a fork I made to create friendly HTML reports, and then I was asked to instead generate JSON, so I rewrote to generate JSON instead, but in the end, the code wasn't needed for the main project. But I still find it useful, so this is mainly going to exist for me to pull upstream TS changes into my personal fork that has the JSON code, which I plan to convert back into HTML-report generating code.
 
-Anyone else is welcome to use this, but I don't plan on providing support or binaries.
+Anyone else is welcome to use this, but I don't plan on providing support or binaries at the moment.
+
+Long-term plan is to strip out all code that isn't testing code, make it reliant on the code in the actual TS library, and then implement some test features I want, like the ability to test beginning at part of a tree instead of only from root. Then it can be a standalone binary that can operate in parallel with TS for anyone who just wants more structured testing functionality.
 
 ## Links
 - [Documentation](https://tree-sitter.github.io)
